@@ -1,13 +1,16 @@
 import styled, { createGlobalStyle } from 'styled-components'
 const GlobalStyle = createGlobalStyle`
-    *{margin: 0;
+    *{
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    body{@media (max-width: 768px) {
-      }}
 
+    body{
+    @media (max-width: 768px) {
+      }
+    }
 
       `
 export default GlobalStyle
@@ -17,8 +20,11 @@ export const Container = styled.div`
       max-width: 1024px;
       margin: 0 auto;
       display: grid;
+      list-style: none;
       grid-template-columns: 180px auto;
       column-gap: 56px;
+      ul{
+      list-style: none;}
       @media (max-width: 768px) {
         padding-top: 16px;
     max-width: 80%;
