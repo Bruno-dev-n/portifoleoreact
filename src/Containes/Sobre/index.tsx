@@ -5,7 +5,7 @@ import { GithubSecao } from './styles'
 const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
-    <Paragrafo tipo="secundario">
+    <Paragrafo tipo="secundario" textoCentralizado={true}>
       Sou um desenvolvedor front-end apaixonado por criar experiências digitais
       incríveis. Com uma sólida formação em desenvolvimento web, tenho
       experiência em HTML, CSS e JavaScript, além de frameworks como React.

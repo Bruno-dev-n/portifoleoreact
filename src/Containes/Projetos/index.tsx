@@ -1,10 +1,11 @@
 import Titulo from '../../Componets/Titulo'
+import Paragrafo from '../../Componets/Paragrafo'
 import Projet from '../../Componets/Projet'
 import { List } from './styles'
 
 const Projetos = () => (
   <section>
-    <Titulo fontSize={16}>Projetos</Titulo>
+    <Titulo>Projetos</Titulo>
     <List>
       <li>
         <Projet />
