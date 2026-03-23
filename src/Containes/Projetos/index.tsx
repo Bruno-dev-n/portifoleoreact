@@ -1,5 +1,4 @@
 import Titulo from '../../Componets/Titulo'
-import Paragrafo from '../../Componets/Paragrafo'
 import Projet from '../../Componets/Projet'
 import { List } from './styles'
 
